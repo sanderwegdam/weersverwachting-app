@@ -36,8 +36,9 @@
 .temperature {
   font-weight: 400;
   font-size: 50px;
-  color: rgb(255, 232, 190);
+  color: rgb(255, 233, 191);
   width: auto;
+  -webkit-text-stroke: 0.1px goldenrod;
   letter-spacing: -1px;
   transform: translateX(100%);
   margin: 10px 0;
