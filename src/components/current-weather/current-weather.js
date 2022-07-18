@@ -16,9 +16,8 @@ const CurrentWeather = ({ data }) => {
         />
       </div>
       <div className="bottom">
-        <p className="temperature">{Math.round(data.main.temp)}
+        <p className="temperature">{Math.round(data.main.temp)}<span className="celcius">°C</span>
         </p>
-        <span className="celcius">°C</span>
       </div>
     </div>
   );
