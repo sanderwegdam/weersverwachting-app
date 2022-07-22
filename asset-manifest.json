@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.css": "/weersverwachting-app/static/css/main.25f6c22a.css",
+    "main.js": "/weersverwachting-app/static/js/main.59cdfb88.js",
+    "index.html": "/weersverwachting-app/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.25f6c22a.css",
+    "static/js/main.59cdfb88.js"
+  ]
+}
