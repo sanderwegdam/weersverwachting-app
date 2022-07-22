@@ -4,7 +4,6 @@ import {
   AccordionItem,
   AccordionItemHeading,
   AccordionItemButton,
-  AccordionItemPanel,
 } from "react-accessible-accordion";
 import "./forecast.css";
 
@@ -25,14 +24,17 @@ const Forecast = ({ data }) => {
                   <img src={`icons/${item.weather[0].icon}.png`} className="icon-small" alt="weather" />
                   <label className="day">{forecastDays[idx]}</label>
                   <label className="description">{item.weather[0].description}</label>
-                  <label className="min-max">{Math.round(item.main.temp_min)}°C</label>
+                  <label className="min-max">{Math.round(item.main.temp_max)}°C</label>
                 </div>
               </AccordionItemButton>
             </AccordionItemHeading>
           </AccordionItem>
         ))}
       </Accordion>
+      <div>
+      </div>
     </>
+
   );
 };
 
